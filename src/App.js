@@ -33,7 +33,7 @@ function App() {
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+            renders the first one that matches the current URL. */ }
         <Switch>
           <Route path="/demo-1">
             <BarChart/>
@@ -42,7 +42,8 @@ function App() {
             <Sphere/>
           </Route>
           <Route path="/demo-3">
-            <TreeView data={data} width={600} height={500} />
+
+            <TreeView data={ data } width={ 600 } height={ 500 }/>
           </Route>
         </Switch>
       </div>
